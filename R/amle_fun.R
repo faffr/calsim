@@ -28,7 +28,7 @@
 #' #Simulate item difficulty parameters
 #' item_difficulties = c(runif(8, min = -3, max = 3) )
 #'
-#' rasch_amlestimate(resp, max_responses, scale_ID, final_scale, item_difficulties)
+#' amle_fun(resp, max_responses, scale_ID, final_scale, item_difficulties)
 
 amle_fun <- function(response,    # responses to items
                      response_max,# maximum response to items

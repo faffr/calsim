@@ -39,7 +39,7 @@ final_scale = list("ScaleA" = c(-0.2,0.2),
 #Simulate item difficulty parameters
 item_difficulties = c(runif(8, min = -3, max = 3) )
 
-rasch_amlestimate(resp, max_responses, scale_ID, final_scale, item_difficulties)
+amle_fun(resp, max_responses, scale_ID, final_scale, item_difficulties)
 }
 \keyword{AMLE}
 \keyword{Muti-stage}
